@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>!!!!!!!!!!!!!</title>  
+  <link rel="stylesheet" href="style.css"> 
+  <script src="main.js"></script>
+  <script src = "users.js"></script>    
+    </head>
+    <body onload="initPage()">
+        
+            <input type="text" value="" placeholder="Search..." id="searchFilter"autofocus onkeyup="onInputSearchListener(this)">
+            <button id="delete" onclick="onClickButtonDelete(this)">Delete</button>           
+            <button id="add" onclick ="onClickButtonAdd()">Add</button>
+            <button id="edit" onclick ="onclickEdit(this)">Edit</button>
+            <button id="defaultArray" onclick ="onClickButtonDefaultArray(this)">Default array</button>
+            <div id="formNewUser"><table id="tableNewUser"></table></div>
+        <table id="tableUsers">  
+            <thead id="thead">           
+                <tr>                  
+                    <td id="nameUsers">User's name <input type ="button" id="sortName" value="up" onclick="onClickSortName(this)"></td>
+                    <td id="e_mail">User's e-mail<input type="button" id="sortEmail" value="up" onclick="onClickSortEmail(this)"></td>
+                    <td id="typeUsers">User's type <input type ="button" id="sortType" value="up" onclick="onClickSortType(this)"><select id="select" onchange="onChangeTypeListener(this)"></select></td>               
+                </tr>    
+            </thead>             
+            <tbody id="filling" ></tbody>      
+        </table>         
+    </body>
+</html>

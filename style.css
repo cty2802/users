@@ -1,0 +1,49 @@
+table, #tableNewUser {    
+    border-collapse: collapse; 
+    width: 100%;       
+    border: solid rgb(9, 6, 77);
+    border-width: 3px;color:  rgb(17, 16, 16);
+    font-size: 25px; 
+    font-style: italic;  
+    overflow-y: auto;    
+    height: 100%;
+    overflow: auto;  
+}
+
+td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #3dbb8a;
+  }
+
+#thead {
+    text-align: center;
+    color:  rgb(5, 15, 88);
+    background-color:rgb(186, 196, 204); 
+    font-size: 25px;
+    text-transform: uppercase;      
+    font-weight: bold;   
+    height: 10%;    
+}
+
+#tableNewUser{
+    width: auto;    
+}
+
+#filling {
+    background-color:rgb(216, 235, 231); 
+    height: 10%; 
+}
+
+#sortAsc{
+    width: 11%;
+    height: 100%;
+}
+
+tr:hover {
+background-color: yellow;
+}
+
+.selectColor {
+    background-color: orangered;
+  }
